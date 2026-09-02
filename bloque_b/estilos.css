@@ -9,4 +9,41 @@
  * 3. Aplica un layout moderno usando Flexbox (display: flex) o CSS Grid (display: grid).
  */
 
-/* TODO: Escribe aquí tus reglas de estilos CSS */
+/* Selector de ID */
+#header-principal {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #3498db;
+}
+
+/* Layout con Flexbox */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+/* Selector de clase */
+.tarjeta {
+  background: #f4f4f4;
+  color: #333;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
